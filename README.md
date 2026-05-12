@@ -5,7 +5,7 @@
 The below is using WireGuard with ProtonVPN:
 
 ```
-D:\>natpmpc.exe
+D:\>go-natpmpc.exe
 Starting NAT-PMP keep-alive loop; refresh UDP+TCP port every 45s forever
 Press Ctrl+C to stop.
 
@@ -29,7 +29,7 @@ Mapped public port 59631 protocol TCP to local port 0 lifetime 60
 ## Usage
 
 ```
-D:\>natpmpc.exe -h
+D:\>go-natpmpc.exe -h
 NAME:
    natpmpc - NAT-PMP keep-alive tool
 
@@ -45,14 +45,14 @@ GLOBAL OPTIONS:
    --help, -h                   show help
 ```
 
-## Building from source on Windows
+## Installing from source on Windows
 
 ```
-go get github.com/koitsu/go-natpmpc
-go build -o natpmpc.exe .
+go install github.com/koitsu/go-natpmpc@v1.0.0
+%GOPATH%\bin\go-natpmpc.exe
 ```
 
-Linux and OS X should be identical, though replace `natpmpc.exe` with `natpmpc`.
+Linux and OS X should be identical, though replace `go-natpmpc.exe` with `go-natpmpc`.
 
 # Why I did this
 
