@@ -61,7 +61,7 @@ Linux and OS X should be identical, though replace `go-natpmpc.exe` with `go-nat
   - Linux and OS X might be hard because there's no human-readable identifier string like "WireGuard Tunnel"
   - Surely there is a way to do it though
 * Automate builds for Linux, OS X, and Windows
-  - Mmaybe Cirrus CI? Oh wait, they're shutting down in a month, thanks OpenAI
+  - Maybe Cirrus CI? Oh wait, they're shutting down in a month, thanks OpenAI
 * Automate publishing releases on GitHub so that I don't have to think about it
 
 # Why I did this
