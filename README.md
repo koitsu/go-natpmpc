@@ -54,6 +54,16 @@ go install github.com/koitsu/go-natpmpc@v1.0.0
 
 Linux and OS X should be identical, though replace `go-natpmpc.exe` with `go-natpmpc`.
 
+# To-do
+
+* How to leverage `latest` tag, e.g. `go-natpmpc@latest`
+* Figure out proper Go code for detecting Wireguard interfaces on other OSes
+  - Linux and OS X might be hard because there's no human-readable identifier string like "WireGuard Tunnel"
+  - Surely there is a way to do it though
+* Automate builds for Linux, OS X, and Windows
+  - Mmaybe Cirrus CI? Oh wait, they're shutting down in a month, thanks OpenAI
+* Automate publishing releases on GitHub so that I don't have to think about it
+
 # Why I did this
 
 My use-case was as follows:
